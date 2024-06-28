@@ -7,7 +7,7 @@ int brillo = 1;
 int incremento = 2;
 
 void setup() {
-  ledcAttach(led, 1000, 8);    // ledcAttach es un nuevo comando, desde 2024.
+  ledcAttach(led, 4000, 8);    // ledcAttach es un nuevo comando, desde 2024.
                                 // Esta función es usada para configurar LEDC con una frecuencia y resolución dada. 
                                 // El canal para LEDC será seleccionado automáticamente. 
                                 // Sintaxis: bool ledcAttach(uint8_t pin, uint32_t freq, uint8_t resolution);
